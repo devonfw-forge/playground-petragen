@@ -1,0 +1,53 @@
+= playground-petragen
+
+== Introduction 
+
+PetraGen is a playground, petri dish and incubator for all things Cobigen. It´s a project intented to experiment, play and generally fool around with Cobigen. The playground consists of individual projects which contain whatever the author deems usefull to demonstrate functionality related with Cobigen. These projects need to be created in the folder "playground" and need to be each in its own folder (using the project name). 
+
+You need to keep in mind that:
+
+- all projects, all code, must build,
+- all Tests in the projects must run successfully and
+- you need to have fun
+
+== Current projects and planned
+
+Planned projects are:
+
+- python-demo: Parser and Merger implementation in Python 3
+- rust-demo: Parser and Merger implementation in Rust (Rust 2018)
+- NET-demo:: Parser and Merger implementation in .NET
+
+== Cobi and Petra
+
+Petragen is named in honour after Cobi and Petra. 
+
+Cobi was the official mascot of the 1992 Summer Olympics[1] and Petra was the official mascot of the 1992 Summer Paralympics, both held in Barcelona, Spain.
+
+Cobi is a Catalan Sheepdog in Cubist style designed by Javier Mariscal and inspired by the interpretations of Picasso of a masterpiece from Velázquez, Las Meninas. He was unveiled to the public in 1987. His name was derived from the Barcelona Olympic Organising Committee (COOB).
+
+.Cobi, mascot of the 1992 Summer Olympics (Barcelona, Spain)
+image::assets/200px-Cobi.png[Cobi,200,200]
+
+For the Paralympic Games, COOB subsequently requested Mariscal for the creation of a new mascot along the creative lines of Cobi. He created Petra, an armless girl that is to convey positivity, extrovertism, independence, active and bravery.
+
+.Petra, Mascot of the 1992 Summer Paralympics (Barcelona, Spain)
+image::assets/200px-Petra_(mascot).png[Petra,200,200]
+
+
+== Copyright & license
+
+ Copyright 2019, 2020 Capgemini SE
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
