@@ -15,7 +15,7 @@ You need to keep in mind that:
 Planned projects are:
 
 - python-demo: Parser and Merger implementation in Python 3
-- rust-demo: Parser and Merger implementation in Rust (Rust 2018)
+- petragen-rust: Parser and Merger implementation in Rust (Rust 2018)
 - NET-demo:: Parser and Merger implementation in .NET
 
 == Cobi and Petra

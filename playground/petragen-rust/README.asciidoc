@@ -1,0 +1,58 @@
+= petragen-rust, a Rust Implementation for Cobigen
+
+This project will contain a full external Cobigen parser and merger implementation written in Rust.  
+
+== Requisites
+
+Petragen-rust uses actix-web, a small and pragmatic framework. It’s a microframework embedded within the executable. It's therefore ideal to interface with Cobigen as the standard Cobigen extension protocol is based on a simple HTTP based exchange between Cobigen and sub-process. 
+
+You can run 
+
+```shell
+cargo install 
+```
+
+to load all dependencies. 
+
+=== Auto-reloading
+
+If you want, you can have an automatically reloading server during development that recompiles on demand. This isn’t necessary, but it makes rapid prototyping more convenient as you can see changes instantly upon saving. To see how this can be accomplished, link:https://actix.rs/docs/autoreload/[have a look at the autoreload pattern].
+
+After installing the requirements, the development server can be run with 
+
+```shell
+./devserver.sh
+```
+
+== Why Rust
+
+.Rust logo
+image::../../assets/rustlogo.png[Rust,200,200]
+
+Rust is a systems programming language sponsored by Mozilla Research (makers of the Firefox browser) that runs blazingly fast, prevents segfaults, and guarantees thread safety. It features:
+
+- zero-cost abstractions
+- move semantics
+- guaranteed memory safety
+- threads without data races
+- trait-based generics
+- pattern matching
+- type inference
+- minimal runtime
+- efficient C bindings
+
+Mozilla describes Rust as a "safe, concurrent, practical language,"supporting functional and imperative-procedural paradigms. Rust is syntactically similar to C++, but its designers intend it to provide better memory safety while maintaining performance.
+
+Rust is an open source programming language. For fourt years in a row, from 2016 to 2019, Rust won first place for "most loved programming language" in the Stack Overflow Developer Survey.
+
+== Install Rust
+
+See: https://www.rust-lang.org/en-US/install.html
+
+== Run code
+
+In the _src/_ directory run:
+
+```bash
+$ cargo test
+```
